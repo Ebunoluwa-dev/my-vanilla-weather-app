@@ -17,6 +17,27 @@
     <div class="container">
         <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-6">
+                <input
+                type="search"
+                class="form-control"
+                placeholder="search city"
+                id="city-input"
+                autocomplete="off"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                class="btn btn-outline-primary w-100"
+                type="submit"
+                id="button-addon1"
+                value="search"
+                 />
+              </div>
+            </div>
+          </form>
             <div class="overview">
                 <h1 id="city"></h1>
                 <ul>
@@ -51,29 +72,6 @@
             </ul>
           </div>
       </div>
-      <form id="search-form">
-        <div class="input-group mb-3 w-25">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="search city"
-            aria-label="Example text with button addon"
-            aria-describedby="button-addon1"
-            id="city-input"
-          />
-          <button
-            class="btn btn-outline-secondary"
-            type="submit"
-            id="button-addon1"
-            value="search"
-          >
-            search
-          </button>
-          <button class="btn btn-outline-secondary" id="current" type="button">
-            current
-          </button>
-        </div>
-      </form>
       <div class="days">
         <div class="row row-cols-auto">
           <div class="col1">
