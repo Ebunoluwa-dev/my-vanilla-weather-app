@@ -56,8 +56,8 @@
             />
             <div class="float-left">
              <strong id="temperature"></strong
-        ><span class="units">°C |
-          <a href="#">°F</a></span>
+        ><span class="units"><a href="#" id="celcius-link" class="active">°C</a>  |
+          <a href="#" id="fahrenheit-link">°F</a></span>
             </div>
           </div>
         </div>
@@ -72,46 +72,18 @@
             </ul>
           </div>
       </div>
-      <div class="days">
-        <div class="row row-cols-auto">
-          <div class="col1">
-            Sun
-            <br />
-            ⛅
-            <br />
-            30°
-          </div>
-          <div class="col2">
-            Mon
-            <br />
-            ☁
-            <br />
-            28°
-          </div>
-          <div class="col3">
-            Tue
-            <br />
-            ⛅
-            <br />
-            29°
-          </div>
-          <div class="col4">
-            Wed
-            <br />
-            ⛅
-            <br />
-            29°
-          </div>
-          <div class="col5">
-            Thurs
-            <br />
-            ☁
-            <br />
-            31°
+      <div class="days-forecast">
+        <div class="row">
+          <div class="col-2">
+            <div class="date-forecast">Sun</div>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" width="42"/>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">30°</span>
+              <span class="forecast-temperature-min">17°</span>
+            </div>
           </div>
         </div>
-        </div>
-    </div>    
+      </div>    
     <p class="footer">
       <a href="https://github.com/Ebunoluwa-dev/my-vanilla-weather-app" target="_blank">Open-source code
       </a>
