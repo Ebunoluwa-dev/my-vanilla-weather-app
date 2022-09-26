@@ -65,3 +65,20 @@ li:first-letter {
     text-decoration: none;
 }
 
+.days-forecast {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+.forecast-date {
+    font-size: 16px;
+    opacity: 0.5;
+}
+ 
+.forecast-temperature {
+    font-size: 12px;
+}
+.forecast-temperature-min {
+    opacity: 0.5;
+}
